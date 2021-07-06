@@ -127,9 +127,83 @@ body {
   font-size: 0.9rem;
   line-height: 1.5rem;
 }
-/*
+
 @media(max-width: 650px) {
+  body {
+    padding: 30px 20px 0 20px;
+    background-image: url('./images/bg-pattern-top-mobile.svg'),
+      url('./images/bg-pattern-bottom-mobile.svg');
+
+  }
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+  }
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+  .text-container h2 {
+    padding: 0;
+    font-size: 1.5rem;
+  }
+  .text-container p {
+    padding-left: 0;
+    line-height: 1.5rem;
+  }
+  .rating-container {
+    width: 90vw;
+  }
+  .rating1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1rem 0 0 1rem;
+    padding-left: 0rem;
+  }
+  .rating2 {
+    left: 0%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 0 0 1rem;
+    padding-left: 0rem;
+  }
+  .rating3 {
+    left: 00%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    padding: 1rem 0 0 1rem;
+    padding-left: 0rem;
+  }
+  .review-container {
+    flex-direction: column;
+  }
+  .review1, .review2, .review3 {
+    padding: 1.5rem 1rem;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    background: hsl(300, 43%, 22%);
+    border-radius: 10px;
+  }
+  .review2 {
+    position: relative;
+    top: -30px;
+    margin-top: 0;
+  }
+  .review3 {
+    position: relative;
+    top: -60px;
+    margin-top: 0;
+  }
 
 
 
-} */
+}
